@@ -1,0 +1,35 @@
+//What is the data type of the result of: 6 / 2?
+result = 6 / 2
+print(result)
+print(type(result)) //float
+
+
+//What is the type of the result of: 6 // 2?
+result = 6 // 2
+print(result)
+print(type(result)) // Int
+
+
+//What is the type of the result of: "hello" == "world"?
+bool
+
+
+//Write the code to convert this phone number 123-456-7890 to a string
+number = 1234567890
+phone_number = str(number)
+print(phone_number)
+print(type(phone_number))
+
+
+//Write the code to convert this number representing financial value "1234.56" to a floating point number
+value = "1234.56"
+amount = float(value)
+print(amount)
+print(type(amount))
+
+
+//Write the code to convert the following number representing employeeid "1001" to an integer
+employee_id = "1001"
+employee_id = int(employee_id)
+print(employee_id)
+print(type(employee_id))
